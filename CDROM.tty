@@ -1,0 +1,18 @@
+class CDROM
+{ private:
+int year1;
+int year2;
+float price1;
+float price2;
+public:
+CDROM (int year2, float price2);
+}
+CDROM::CDROM (year2,price2)
+cout<<"The object is initialised"<<endl;
+cout<<"Year of release :"<<year2<<endl;
+cout<<"Price :"<<price2<<endl;
+}
+void main()
+clrscr();
+CDROM cdrom1(2002, 55.5);
+}
